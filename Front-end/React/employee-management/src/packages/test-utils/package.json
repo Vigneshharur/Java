@@ -1,0 +1,25 @@
+{
+  "name": "remedy-test-utils",
+  "version": "1.0.0",
+  "description": "Test utilities",
+  "keywords": [
+    "test",
+    "utils"
+  ],
+  "author": "Engineering <engineering@patientping.com>",
+  "homepage": "https://github.com/PatientPing/remedy#readme",
+  "license": "UNLICENSED",
+  "main": "lib/testUtils.js",
+  "typings": "lib/testUtils.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PatientPing/remedy.git"
+  },
+  "devDependencies": {
+    "typescript": "~4.1.5"
+  },
+  "scripts": {
+    "build": "npm run compile",
+    "compile": "tsc -b . --force"
+  }
+}

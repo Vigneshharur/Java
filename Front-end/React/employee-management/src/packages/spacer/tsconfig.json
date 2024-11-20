@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "outDir": "lib",
+    "rootDir": "src",
+    "baseUrl": ".",
+    "paths": {
+      "remedy-theme": ["../theme/src/index.ts"],
+    }
+  },
+  "extends": "../../tsconfig.json",
+  "references": [{ "path": "../theme" }],
+  "include": ["src"]
+}

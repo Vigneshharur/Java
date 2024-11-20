@@ -1,0 +1,72 @@
+import { Meta, ColorPalette, ColorItem } from '@storybook/addon-docs/blocks';
+
+import { colors } from './src';
+
+<Meta title="Theme/Colors" />
+
+# Colors
+
+<ColorPalette>
+  <ColorItem key="primary" title="Primary" subtitle="1 to 2" colors={[colors.primary1, colors.primary2]} />
+  <ColorItem key="secondary" title="Secondary" subtitle="1 to 2" colors={[colors.secondary1, colors.secondary2]} />
+  <ColorItem key="tertiary" title="Tertiary" subtitle="1 to 2" colors={[colors.tertiary1, colors.tertiary2]} />
+<ColorItem
+  key="purple"
+  title="Purple"
+  subtitle="1 to 5"
+  colors={[colors.purple1, colors.purple2, colors.purple3, colors.purple4, colors.purple5]}
+/>
+<ColorItem
+  key="green"
+  title="Green"
+  subtitle="1 to 5"
+  colors={[colors.green1, colors.green2, colors.green3, colors.green4, colors.green5]}
+/>
+<ColorItem
+  key="orange"
+  title="Orange"
+  subtitle="1 to 5"
+  colors={[colors.orange1, colors.orange2, colors.orange3, colors.orange4, colors.orange5]}
+/>
+<ColorItem
+  key="yellow"
+  title="Yellow"
+  subtitle="1 to 5"
+  colors={[colors.yellow1, colors.yellow2, colors.yellow3, colors.yellow4, colors.yellow5]}
+/>
+<ColorItem
+  key="blue"
+  title="Blue"
+  subtitle="1 to 5"
+  colors={[colors.blue1, colors.blue2, colors.blue3, colors.blue4, colors.blue5]}
+/>
+<ColorItem
+  key="teal"
+  title="Teal"
+  subtitle="1 to 5"
+  colors={[colors.teal1, colors.teal2, colors.teal3, colors.teal4, colors.teal5]}
+/>
+<ColorItem
+  key="plum"
+  title="Plum"
+  subtitle="1 to 5"
+  colors={[colors.plum1, colors.plum2, colors.plum3, colors.plum4, colors.plum5]}
+/>
+<ColorItem
+  key="red"
+  title="Red"
+  subtitle="1 to 5"
+  colors={[colors.red1, colors.red2, colors.red3, colors.red4, colors.red5]}
+/>
+<ColorItem key="charcoal" title="Charcoal" subtitle={colors.charcoal} colors={[colors.charcoal]} />
+<ColorItem key="ash" title="Ash" subtitle={colors.ash} colors={[colors.ash]} />
+<ColorItem key="white" title="White" subtitle={colors.white} colors={[colors.white]} />
+
+  <ColorItem key="cream" title="Cream" subtitle="1 to 2" colors={[colors.cream1, colors.cream2]} />
+  <ColorItem
+    key="gray"
+    title="Gray"
+    subtitle="1 to 5"
+    colors={[colors.gray1, colors.gray2, colors.gray3, colors.gray4, colors.gray5]}
+  />
+</ColorPalette>;

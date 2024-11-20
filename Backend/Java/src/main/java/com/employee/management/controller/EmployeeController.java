@@ -9,7 +9,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("/api/employee")
+@RequestMapping("/api")
 @Slf4j
 public class EmployeeController {
 
@@ -42,5 +42,10 @@ public class EmployeeController {
         log.info("getEmployeeDetails incoming request for employeeId {}",employeeId);
         EmployeeBaseDetails employeeBaseDetails = employeeService.getEmployeeDetails(employeeId);
         return ResponseEntity.ok(employeeBaseDetails);
+    }
+
+    @GetMapping("/test")
+    public ResponseEntity<String> test(){
+        return ResponseEntity.ok("Test Success pq");
     }
 }

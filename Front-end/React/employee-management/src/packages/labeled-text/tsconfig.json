@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "outDir": "lib",
+    "rootDir": "src",
+    "baseUrl": ".",
+    "paths": {
+      "remedy-typography": ["../typography/src/index.ts"]
+    }
+  },
+  "extends": "../../tsconfig.json",
+  "references": [{ "path": "../typography" }],
+  "include": ["src"]
+}

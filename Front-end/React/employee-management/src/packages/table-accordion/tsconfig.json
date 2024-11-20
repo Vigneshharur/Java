@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "outDir": "lib",
+    "rootDir": "src",
+    "baseUrl": ".",
+    "paths": {
+      "remedy-theme": ["../theme/src/index.ts"],
+      "remedy-expand-collapse-arrow": ["../expand-collapse-arrow/src/index.ts"]
+    }
+  },
+  "extends": "../../tsconfig.json",
+  "references": [{ "path": "../theme" }, { "path": "../expand-collapse-arrow" }],
+  "include": ["src"]
+}

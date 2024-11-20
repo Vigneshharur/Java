@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "outDir": "lib",
+    "rootDir": "src",
+    "baseUrl": ".",
+    "downlevelIteration": true,
+    "paths": {
+      "remedy-theme": ["../theme/src/index.ts"],
+      "remedy-button": ["../button/src/index.ts"],
+      "remedy-icon": ["../icon/src/index.ts"],
+      "remedy-typography": ["../typography/src/index.ts"]
+    }
+  },
+  "extends": "../../tsconfig.json",
+  "references": [{ "path": "../theme" }, { "path": "../button" }, { "path": "../icon" }, { "path": "../typography" }],
+  "include": ["src"]
+}

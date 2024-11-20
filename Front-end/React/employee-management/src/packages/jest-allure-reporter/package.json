@@ -1,0 +1,31 @@
+{
+    "name": "remedy-jest-allure-reporter",
+    "version": "1.0.0",
+    "description": "Allure Reports for Ping FE unit and integration testing using jest",
+    "keywords": [
+      "test",
+      "allure"
+    ],
+    "author": "Engineering <engineering@patientping.com>",
+    "homepage": "https://github.com/PatientPing/remedy#readme",
+    "license": "UNLICENSED",
+    "main": "lib/allure.ts",
+    "typings": "lib/allure.d.ts",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/PatientPing/remedy.git"
+    },
+    "devDependencies": {
+      "@types/jasmine": "^3.5.11",
+      "jest-jasmine2": "~26.6.3",
+      "allure-jasmine": "^2.0.0",
+      "allure-js-commons": "^2.0.0",
+      "@types/jest": "^26.6.3",
+      "jest": "~26.6.3",
+      "typescript": "~4.1.5"
+    },
+    "scripts": {
+      "build": "npm run compile",
+      "compile": "tsc -b . --force"
+    }
+  }

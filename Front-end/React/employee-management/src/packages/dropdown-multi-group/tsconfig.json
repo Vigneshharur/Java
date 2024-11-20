@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "outDir": "lib",
+    "rootDir": "src",
+    "baseUrl": ".",
+    "paths": {
+      "remedy-theme": ["../theme/src/index.ts"],
+      "remedy-typography": ["../typography/src/index.ts"],
+      "remedy-checkbox": ["../checkbox/src/index.ts"]
+    },
+    "downlevelIteration": true
+  },
+  "extends": "../../tsconfig.json",
+  "references": [{ "path": "../theme" }, { "path": "../typography" },{ "path": "../checkbox" }],
+  "include": ["src"]
+}
